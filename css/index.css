@@ -225,6 +225,16 @@ nav a {
   height: auto;
   border-radius: 10px;
 }
+.walk {
+  display: flex;
+}
+@media phone {
+  .walk {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

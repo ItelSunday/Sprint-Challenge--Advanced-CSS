@@ -1,1 +1,17 @@
-// Mixins Here
+// Mixins
+
+// Buttons
+.btn(@button-bg-color; @button-color; @btn-width: 50%; @btn-border-radius: 0; @btn-font-size: 1.5rem){
+    padding: 8px 0;
+    border: 0;
+    text-align: center;
+    border-radius: @btn-border-radius;
+    font-size: @btn-font-size;
+    background-color: @btn-bg-color;
+    color: @btn-color;
+
+    @media @phone{
+        width: 100%;
+        padding: 20px;
+    }
+}
