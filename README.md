@@ -1,20 +1,9 @@
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
+<a href="#">View Page</a>
+
+
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
-
-## Instructions
-
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
-
-This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
-
-You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in advanced css and your command of the concepts and techniques in responsive web design and preprocessing.
-
-You have three hours to complete this challenge. Plan your time accordingly.
-
-## Commits
-
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
 ## Description
 
@@ -34,13 +23,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive Design 
+provides optimal viewing experience meaning no matter what type of device the user is seeing it on, it will be the same layout that will automatically respond to that size.
+
+Fully Responsive Design
+depends on the screen size used. It could be a specific layout for mobile phones, tablets and desktop. When you're on that specific device, it detects the type of device used and delivers the layout.
+
+
 2. Describe what it means to be mobile first vs desktop first.
 
+In technical perspective, designing the mobile is a good approach in designing as it can be scaled up to the desktop size.
+Mobile first is a good choice as this approach is best to begin with in designing as 
+Desktop first means it's best to achive the design for different resolutions.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+it's a respect to usability by using a percentage rather than a hard-coded value.
+16px = 1rem (standard font size)
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessor allows the developers to write styles in a different way and converted into CSS that the browser can understand. It is easier and more logical way in building websites  
+ 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Creating variables, mixins and nesting. 
+It would probable be the other concept in CSS that incorporates animations and mixins as it has other rules that I need to get familiar with. I understand the concept but I just code slowly to achieve the final result. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

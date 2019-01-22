@@ -1,1 +1,38 @@
-// Mixins Here
+// Mixins
+
+// Transition duration
+.transition(@duration) {
+    -webkit-transition-duration: @duration;
+    -moz-transition-duration: @duration;
+    transition-duration: @duration;
+}
+
+// Buttons
+.cta(@btn-width: 50%, @btn-border-radius: 0, @btn-font-size: 1.5rem){
+    padding: 8px 0;
+    border: 0;
+    text-align: center;
+    width: @btn-width;
+    min-width: 100px;
+    border-radius: 10px;
+    font-size: @btn-font-size;
+    background-color: @button-bg-color;
+    color: @button-color;
+    &:hover{
+        color: @button-bg-color;
+        background-color: @button-color;
+        .transition(0.75s);
+      }
+
+    @media @phone{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+// Nav - positioning
+.sticky-top(@sticky){
+    position: sticky;
+    top: @sticky;
+    z-index: 1;
+}
